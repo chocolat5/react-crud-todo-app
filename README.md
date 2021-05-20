@@ -42,7 +42,7 @@ npm install --save-dev
 npm run start
 ```
 
-5. See [http://localhost:8000/](http://localhost:8000/)
+5. See [http://localhost:8080/](http://localhost:8080/)
 
 
 ## References

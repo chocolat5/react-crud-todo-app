@@ -3,11 +3,19 @@
     [
       "@babel/preset-env",
       {
+        "useBuiltIns": "usage",
+        "corejs": 3,
         "targets": {
           "esmodules": true
-        },
-        "useBuiltIns": "usage",
-        "corejs": 3
+        }
+      }
+    ],
+    [
+      "env",
+      {
+        "targets": {
+          "node": "current"
+        }
       }
     ],
     "@babel/preset-react"
